@@ -6,7 +6,10 @@
  * main - Entry point
  * Return: Always 0 (Success)
  */
-int main(void)
+
+int main(void)/* function finds the last digit
+	       * of a randomly generated number
+	       */
 {
 	int n; /* randomly generated number*/
 	int last_number; /* holds the last digit of number generated */
@@ -17,7 +20,7 @@ int main(void)
 	printf("Last digit of %d is %d", n, last_number);
 	if (last_number > 5)
 	{
-		printf("and is less than 5\n");
+		printf(" and is less than 5\n");
 	}
 	else if (last_number < 6 && last_number != 0)
 	{
