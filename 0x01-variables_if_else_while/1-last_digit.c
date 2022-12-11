@@ -8,11 +8,12 @@
  */
 int main(void)
 {
-	int n;
-	int last_number = n % 10;
+	int n; /* randomly generated number*/
+	int last_number = n % 10; /* holds the last digit of number generated */
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	last_number = n % 10;
 	printf("Last digit of %d is %d", n, last_number);
 	if (last_number > 5)
 	{
