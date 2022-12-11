@@ -2,14 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  * Return: Always 0 (Success)
  */
 
-int main(void)/* function finds the last digit
-	       * of a randomly generated number
-	       */
+int main(void)
 {
 	int n; /* randomly generated number*/
 	int last_number; /* holds the last digit of number generated */
