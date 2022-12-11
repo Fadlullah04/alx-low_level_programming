@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n; /* randomly generated number*/
-	int last_number = n % 10; /* holds the last digit of number generated */
+	int last_number; /* holds the last digit of number generated */
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
