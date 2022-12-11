@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - Entry point
+/* *
+ * main - Entry point
  * Return: Always 0 (Success)
  * */
 
@@ -19,11 +20,11 @@ int main(void)
 	}
 	else if (last_number < 6 && last_number != 0)
 	{
-		printf("and is less than 6 and not 0\n");
+		printf(" and is less than 6 and not 0\n");
 	}
 	else if (last_number == 0)
 	{
-		printf("and is 0\n");
+		printf(" and is 0\n");
 	}
 	return (0);
 }
