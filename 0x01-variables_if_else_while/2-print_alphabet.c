@@ -15,7 +15,6 @@ int main(void)/**
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 	putchar(alphabet);
-	printf("\n");
 	}
 	return (0);
 }
