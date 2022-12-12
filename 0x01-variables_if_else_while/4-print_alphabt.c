@@ -15,11 +15,9 @@ int main(void)
 
 	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 	{
-		if (alphabets == 'e' || alphabets == 'q')
-		{
-			continue;
-			putchar (alphabets);
-		}	
+	if (alphabets == 'e' || alphabets == 'q')
+		continue;
+	putchar (alphabets);	
 	}
 	putchar('\n');
 	return (0);
