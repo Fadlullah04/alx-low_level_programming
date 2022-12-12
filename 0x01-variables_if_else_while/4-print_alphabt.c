@@ -8,7 +8,7 @@
  */
 
 int main(void)
-{	
+{
 	/*program prints a-z to stdout except e and q*/
 
 	int alphabets = 0;
@@ -17,7 +17,7 @@ int main(void)
 	{
 	if (alphabets == 'e' || alphabets == 'q')
 		continue;
-	putchar (alphabets);	
+	putchar (alphabets);
 	}
 	putchar('\n');
 	return (0);
