@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *print_alphabet - prints the alphabets from a-z 
- * 
+ *print_alphabet - prints the alphabets from a-z
+ *
  *in lowercase
  *
  *Return: Nothing
@@ -16,4 +16,5 @@ void print_alphabet(void)
 	{
 		_putchar(numcounter);
 	}
+	-putchar('\n');
 }
