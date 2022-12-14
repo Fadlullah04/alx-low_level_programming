@@ -1,23 +1,19 @@
 #include "main.h"
 
 /**
- * main - entry point
- * Return: Always 0 (Success)
+ *main - Entry point
+ *Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
-	/*the code below prints str "_putchar*/
-	_putchar(char _);
-	_putchar(char p);
-	_putchar(char u);
-	_putchar(char t);
-	_putchar(char c);
-	_putchar(char h);
-	_putchar(char a);
-	_putchar(char r);
+	char word[] = "_putchar";
+	int counter;
 
-	
+	for (counter = 0; counter < 8; counter++)
+	{
+		_putchar(word[counter]);
+	}
+	_putchar('\n');
 	return (0);
 }
-
