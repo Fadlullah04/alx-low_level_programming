@@ -9,12 +9,12 @@
  */
 
 void print_alphabet(void)
-{
+u{
 	int numcounter;
 
 	for (numcounter = 'a'; numcounter <= 'z'; numcounter++)
 	{
 		_putchar(numcounter);
 	}
-	-putchar('\n');
+	_putchar('\n');
 }
