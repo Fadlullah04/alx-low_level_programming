@@ -9,7 +9,7 @@
  */
 
 void print_alphabet(void)
-u{
+{
 	int numcounter;
 
 	for (numcounter = 'a'; numcounter <= 'z'; numcounter++)
