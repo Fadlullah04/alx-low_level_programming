@@ -10,10 +10,10 @@ int main(void)
 {
 	int numbers = 0;
 
-	for (numbers == 0; numbers < 10; numbers++)
+	for (numbers = 0; numbers < 10; numbers++)
 	{
 		printf("%d", numbers);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
