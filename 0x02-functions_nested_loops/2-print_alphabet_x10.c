@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 {
 	int major = 0;
 
-	for (major = 0; major <= 10; major++)
+	for (major = 0; major <= 9; major++)
 	{
 
 		int numcounter;
