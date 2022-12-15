@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- *print_alphabet - prints the alphabets from a-z
+ * print_alphabet_x10 - prints a - z ten times
  *
- *in lowercase
- *
- *Return: Nothing
+ * Return: Nothing
  */
 
 void print_alphabet_x10(void)
