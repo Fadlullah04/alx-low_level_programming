@@ -1,1 +1,1 @@
-This is the debugging readme file
+This repository is created for C projects.
