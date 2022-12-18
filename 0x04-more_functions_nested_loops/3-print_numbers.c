@@ -3,7 +3,7 @@
 #include<stdlib.h>
 
 /**
- * print_number - numbers from 0 - 9
+ * print_numbers - numbers from 0 - 9
  * Return: Nothing
  */
 
