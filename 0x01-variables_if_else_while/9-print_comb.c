@@ -4,12 +4,11 @@
  * main - entry poin of code
  * Return: Always 0
  */
-
-int  main()
+int  main(void)
 {
 	int counter = 9;
-    
-    for (counter = 48; counter < 58; counter++)
+	
+	for (counter = 48; counter < 58; counter++)
     {
 	putchar(counter);
 	if (counter < 57)
