@@ -12,7 +12,7 @@ void print_most_numbers(void)
 	{
 	if (counter == 50  || counter == 59)
 		continue;
-		_putchar(counter);
+	_putchar(counter);
 	}
 	_putchar('\n');
 }
