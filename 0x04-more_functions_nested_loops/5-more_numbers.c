@@ -9,6 +9,7 @@ void more_numbers(void)
 {
 	int counter1  = 0;
 	int counter2 = 0;
+
 	for (counter2 = 0; counter2 <= 9; counter2++)
 	{
 		for (counter1 = 48; counter1 <= 57; counter1++)
