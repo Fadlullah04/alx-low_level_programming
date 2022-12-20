@@ -11,9 +11,8 @@ void print_most_numbers(void)
 	for (counter  = 48;  counter <= 57; counter++)
 	{
 	if (counter == 50  || counter == 59)
-	{	continue;
+		continue;
 		_putchar(counter);
 	}
-	}
-		_putchar('\n');
+	_putchar('\n');
 }
