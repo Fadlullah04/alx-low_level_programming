@@ -10,7 +10,7 @@
  *Return: non
  */
 
-void _strcpy(char* dest, const char* src)
+void _strcpy(char* dest, char* src)
 {
 	while (*src) 
 	{
