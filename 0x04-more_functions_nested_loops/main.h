@@ -8,4 +8,5 @@ void print_most_numbers(void);
 int _isupper(int c);
 void more_numbers(void);
 void print_line(int n);
+void puts2(char *str);
 #endif

@@ -7,24 +7,19 @@
 
 void more_numbers(void)
 {
-	int counter1 = 0;
+	int counter1  = 0;
 	int counter2 = 0;
-	int counter3 = 0;
-	int extra = 0;
-	extra = 10 + counter3
-
-	for (counter1 = 1; counter1 <= 10; counter1++)
+	for (counter2 = 0; counter2 <= 9; counter2++)
 	{
-		for (counter2 = 48; counter2 <= 57; counter2++)
+		for (counter1 = 48; counter1 <= 57; counter1++)
 		{
-			_putchar(counter2);
-		for (counter3 = 0; counter3 <= 4; counter3++)
-		{
-			_putchar(counter3);
+			_putchar(counter1);
 		}
+		for (counter1 = 10; counter1 <= 14; counter1++)
+		{
+			_putchar((counter1 / 10) + '0');
+			_putchar((counter1 % 10) + '0');
 		}
 		_putchar('\n');
 	}
-
-
 }
