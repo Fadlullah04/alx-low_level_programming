@@ -7,17 +7,18 @@
  * Return: result
  */
 
-int _abs(int x) 
+int _abs(int x)
 {
-	int result = 0;
-
 	if (x < 0)
 	{
-		_putcahr(-1 * x);
+		_putchar('-');
+		x = -x;
 	}
-	else 
+	if (x >= 10)
 	{
-		_putchar(x);
+		_abs(x / 10);
 	}
+	_putchar (x % 10 + '0');
+
 	return (0);
 }
