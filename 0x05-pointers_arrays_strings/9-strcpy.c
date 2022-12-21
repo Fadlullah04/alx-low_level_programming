@@ -10,11 +10,20 @@
  *Return: non
  */
 
-void _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
-	while (*src)
+	int a = 0;
+	int x = 0;
+
+	while (*(src + a) != '\0')
 	{
-		putchar(*dest++ = *src++);
+		a++;
 	}
-	dest = '\0';
+	for ( ; x < a ; x++)
+	{
+		dest[x] = src[x];
+	}
+	dest[a] = '\0';
+	return (dest);
 }
+
