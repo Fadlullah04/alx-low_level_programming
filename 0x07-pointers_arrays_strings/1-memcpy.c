@@ -7,7 +7,7 @@
  *@n: number of bytes of src to be copied
  *Return: string
  */
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
