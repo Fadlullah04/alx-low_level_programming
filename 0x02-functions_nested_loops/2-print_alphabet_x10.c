@@ -1,21 +1,20 @@
 #include"main.h"
 
 /**
- * print_alphabet_x10 - Print alphabet in lowercase
- * Return: void
+ * void print_alphabet_x10 - print the lowercase letters 10 tis
+ * Return: 0
  */
 
 void print_alphabet_x10(void)
 {
-	int i = 97;
-	int j = 0;
+	int i, j;
 
-	do {
-		while (i <= 122)
+	for (j = 0; j <= 10; j++)
+	{
+		for (i = 97; i <= 122; i++)
 		{
 			_putchar(i);
-			i++;
 		}
-	} while (j < 10);
-	j++;
+	}
+	_putchar('\n');
 }
