@@ -5,14 +5,14 @@
  * Return: void
  */
 
-void print_alphabet(void)
+void print_alphiabet(void)
 {
-	int i = 0;
+	int i = 97;
 
 	while (i <= 122)
 	{
-		i = 97;
 		_putchar(i);
 		i++;
 	}
+	_putchar('\n');
 }
