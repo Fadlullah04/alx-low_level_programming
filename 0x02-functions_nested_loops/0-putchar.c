@@ -11,8 +11,8 @@ int main(void)
 
 	while(c)
 	{
-		_putchar(c);
+		_putchar(*c);
 		c++;
 	}
-	return (0):
+	return (0);
 }
