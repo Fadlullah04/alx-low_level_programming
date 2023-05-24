@@ -15,6 +15,8 @@ void print_to_98(int n)
 		for (; n >= 97; n--)
 		{
 			printf("%d, ", n);
+			if (n == 97 || n == 98)
+				break;
 		}
 		printf("%d", last_num);
 		putchar('\n');
