@@ -1,10 +1,11 @@
 #include"main.h"
 
 /**
- * fizz_buzz - print numbers in a specail way
+ * main - print numbers in special way
+ * Return: Always (0);
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 	char *fz = "Fizz";
@@ -25,14 +26,5 @@ void fizz_buzz(void)
 			printf("%d", i);
 	}
 	putchar('\n');
-}
-
-/**
- * main - driver code
- * Return: Always (0);
- */
-
-int main(void)
-{
-	fizz_buzz();
+	return (0);
 }
