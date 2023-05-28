@@ -16,12 +16,12 @@ int main(void)
 	{
 		if (i > 1  && i <= 100)
 			putchar(' ');
-		if (i % 3 == 0)
-			printf("%s", fz);
-		else if (i % 5 == 0)
-			printf("%s", bz);
-		else if (i % 3 == 0 && i % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 			printf("%s", fzbz);
+		else if (i % 3 == 0)
+			printf("%s", bz);
+		else if (i % 5 == 0)
+			printf("%s", fz);
 		else
 			printf("%d", i);
 	}
