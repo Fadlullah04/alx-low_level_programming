@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - print a triangle
- * @n: length n
+ * @size: length size
  */
 void print_triangle(int size)
 {
@@ -22,5 +22,3 @@ void print_triangle(int size)
 		}
 	}
 }
-
-	
