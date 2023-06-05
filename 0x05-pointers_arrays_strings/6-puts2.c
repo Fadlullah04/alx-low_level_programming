@@ -1,19 +1,17 @@
-#include"main.h"
-
+#include "main.h"
 /**
  * puts2 - prints every other character of a string
- * @str: the string to be tested
+ *
+ * @str: char to check
+ *
+ * Return: 0 is success
  */
-
 void puts2(char *str)
 {
+	int string;
 
-	while (*str != '\0')
-	{
-		if (*str == '.')
-			break;
-		_putchar(*str);
-		str += 2;
-	}
+	for (string = 0; str[string] != '\0'; string++)
+	if (string % 2 == 0)
+		_putchar(str[string]);
 	_putchar('\n');
 }
