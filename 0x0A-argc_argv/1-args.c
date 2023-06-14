@@ -2,8 +2,8 @@
 
 /**
  * main - get the number og arguments passed
- * @argc - argument count
- * @argv - argumnet vector
+ * @argc: argument count
+ * @argv: argumnet vector
  * Return: success
  */
 
