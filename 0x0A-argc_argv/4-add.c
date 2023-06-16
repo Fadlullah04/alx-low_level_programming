@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, converted, result, none;
+	int i, j, k, converted, result, none;
 
 	none = 0;
 	result = 0;
@@ -20,14 +20,18 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		converted = atoi(argv[i]);
-		if (converted == 0)
-		{
-			printf("Error\n");
-			return (1);
-		}
-		else
-			result += converted;
+		for (j = 0; argv[i][j] != '\0'; j++)
+			if (argv[i][j] > '9' || argv[i][j] < '0')
+			{
+				printf("Error\n");
+				return (1);
+			}
+	}
+
+	for (k = 0; k < argc; k++)
+	{
+		converted = atoi(argv[k]);
+		result += converted;
 	}
 	printf("%d\n", result);
 	return (0);
