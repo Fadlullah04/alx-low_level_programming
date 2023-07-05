@@ -1,2 +1,0 @@
--README for the argc and argv directory
--ARGV & ARGC
