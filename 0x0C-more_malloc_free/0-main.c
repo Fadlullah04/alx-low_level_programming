@@ -12,9 +12,11 @@ int main(void)
 {
     char *c;
     int *i;
+    int *j;
     float *f;
     double *d;
 
+    j = malloc_checked(0);
     c = malloc_checked(sizeof(char) * 1024);
     printf("%p\n", (void *)c);
     i = malloc_checked(sizeof(int) * 402);

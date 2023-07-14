@@ -10,8 +10,10 @@ void *malloc_checked(unsigned int b)
 {
 	void *p;
 
-	p = malloc(sizeof(unsigned int) * b);
+	if (b > UINT_MAX)
+		exit(98);
+	p = malloc(sizeof(void *) * b);
 	if (p == NULL)
 		exit(98);
-	return(p);
+	return (p);
 }
